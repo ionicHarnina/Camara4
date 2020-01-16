@@ -13,5 +13,6 @@
     <ion-button (click)="fotografia()">Fotografia</ion-button>
   </div>
   <ion-label>eso</ion-label>
-  <img [src]="base64Image" *ngIf="base64Image"/>
+  <!-- <img [src]="base64Image" *ngIf="base64Image"/> -->
+  <ion-img [src]="base64Image" *ngIf="base64Image"></ion-img>
 </ion-content>
